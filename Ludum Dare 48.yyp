@@ -1,5 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":1,},
+    {"id":{"name":"_GlobalVar","path":"scripts/_GlobalVar/_GlobalVar.yy",},"order":0,},
+    {"id":{"name":"s_playerBase","path":"sprites/s_playerBase/s_playerBase.yy",},"order":0,},
+    {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":2,},
+    {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"order":0,},
+    {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},"order":1,},
+    {"id":{"name":"s_pickaxe","path":"sprites/s_pickaxe/s_pickaxe.yy",},"order":2,},
+    {"id":{"name":"o_pickaxe","path":"objects/o_pickaxe/o_pickaxe.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
