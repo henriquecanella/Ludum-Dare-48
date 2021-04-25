@@ -105,5 +105,14 @@ if (place_meeting(x, y+vsp, o_collision))
 
 y += round(vsp);
 
-/* */
-/*  */
+sprite_index = s_playerBase;
+
+
+if (hsp != 0 && is_on_ground == true) {
+	sprite_index = s_playerMove;
+	image_xscale = sign(hsp);
+}
+if(is_on_ground == false) {
+	sprite_index = s_playerJump;
+}
+
