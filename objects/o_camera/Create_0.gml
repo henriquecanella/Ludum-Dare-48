@@ -1,6 +1,5 @@
-  
+audio_play_sound(music,10,true);  
 /// @description
-show_debug_overlay(true);
 
 
 #macro cam view_camera[0]

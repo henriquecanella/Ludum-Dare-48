@@ -6,6 +6,7 @@
     {"id":{"name":"o_quit","path":"objects/o_quit/o_quit.yy",},"order":2,},
     {"id":{"name":"o_tutorial","path":"objects/o_tutorial/o_tutorial.yy",},"order":11,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":1,},
+    {"id":{"name":"music","path":"sounds/music/music.yy",},"order":4,},
     {"id":{"name":"s_keeper","path":"sprites/s_keeper/s_keeper.yy",},"order":20,},
     {"id":{"name":"s_entrance","path":"sprites/s_entrance/s_entrance.yy",},"order":8,},
     {"id":{"name":"s_tile","path":"sprites/s_tile/s_tile.yy",},"order":17,},
