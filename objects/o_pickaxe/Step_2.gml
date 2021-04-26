@@ -2,6 +2,7 @@ player_x = o_player.x-4;
 player_y = o_player.y+5;
 
 if (mouse_check_button_pressed(mb_left) && move_pickaxe == false) {
+	audio_play_sound(throwPick,1,false);
 	alarm[0] = (room_speed * 0.5);
 	xx = mouse_x;
 	yy = mouse_y;
@@ -32,11 +33,9 @@ else if (go_back == true) {
 	if (distance_to_point(o_player.x-4,o_player.y+5) <= 0) {
 		x = player_x;
 		y = player_y;
-		show_debug_message(x);
 		go_back = false;
 		move_pickaxe = false;
 	}
-	show_debug_message("volta porraa");
 }
 else {
 	x = player_x;

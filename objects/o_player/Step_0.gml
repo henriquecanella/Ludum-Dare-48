@@ -1,4 +1,5 @@
-//Get the player's input
+if (!global.paused) {
+	//Get the player's input
 key_right = keyboard_check(global.key_right);
 //key_right = keyboard_check(ord("D"));
 key_left = -keyboard_check(global.key_left);
@@ -112,7 +113,12 @@ if (hsp != 0 && is_on_ground == true) {
 	sprite_index = s_playerMove;
 	image_xscale = sign(hsp);
 }
+if (key_jump) {
+	audio_play_sound(jump, 10, false);
+}
 if(is_on_ground == false) {
 	sprite_index = s_playerJump;
 }
 
+
+}

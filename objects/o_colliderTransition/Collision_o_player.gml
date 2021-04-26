@@ -1,0 +1,1 @@
+TransitionStart(Room1,sq_startTransition,25,65);

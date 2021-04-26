@@ -2,7 +2,7 @@
 grav = 0.2;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed
-jumpspeed = 2.8;
+jumpspeed = 3.1;
 movespeed = 1.2;
 //for ledge assistance 
 grace_jump_time = 10; //number of grace period frames after leaving the ground you can still jump
